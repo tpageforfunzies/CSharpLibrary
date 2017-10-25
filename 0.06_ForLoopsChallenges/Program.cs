@@ -29,8 +29,8 @@ namespace _0._06_ForLoopsChallenges
             Console.WriteLine("");
 
             //------GOLD------
-            //fizzbuzz
-            for (int i = 0; i <= 100; i++)
+            //fizzbuzz to 100
+            for (int i = 1; i <= 100; i++)
             {
                 if ((i % 3 == 0) && (i % 5 == 0))
                 {
@@ -65,13 +65,9 @@ namespace _0._06_ForLoopsChallenges
                     total += temp;
                 }
                 firstNum = secondNum;
-                secondNum = temp;               
+                secondNum = temp;
             }
             Console.WriteLine(total);
-            
-
-
-
         }
     }
 }
