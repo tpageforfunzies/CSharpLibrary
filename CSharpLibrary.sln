@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.03_Strings", "0.03_String
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.03_StringsChallenges", "0.03_StringsChallenges\0.03_StringsChallenges.csproj", "{F6F1D418-9D0E-48FE-A562-D0F33F380F2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.04_ConditionalsPairCodeChallange", "Random\0.04_ConditionalsPairCodeChallange.csproj", "{624282E1-2EEC-4EDE-9107-CFCC6A41E3F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{F6F1D418-9D0E-48FE-A562-D0F33F380F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6F1D418-9D0E-48FE-A562-D0F33F380F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6F1D418-9D0E-48FE-A562-D0F33F380F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{624282E1-2EEC-4EDE-9107-CFCC6A41E3F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624282E1-2EEC-4EDE-9107-CFCC6A41E3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624282E1-2EEC-4EDE-9107-CFCC6A41E3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624282E1-2EEC-4EDE-9107-CFCC6A41E3F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

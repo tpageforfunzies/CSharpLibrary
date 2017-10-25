@@ -1,0 +1,7 @@
+C:\DotNetProjects\CSharpLibrary\Random\bin\Debug\Random.exe.config
+C:\DotNetProjects\CSharpLibrary\Random\bin\Debug\Random.exe
+C:\DotNetProjects\CSharpLibrary\Random\bin\Debug\Random.pdb
+C:\DotNetProjects\CSharpLibrary\Random\obj\Debug\0.04_ConditionalsPairCodeChallange.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\Random\obj\Debug\Random.exe
+C:\DotNetProjects\CSharpLibrary\Random\obj\Debug\Random.pdb
+C:\DotNetProjects\CSharpLibrary\Random\obj\Debug\0.04_ConditionalsPairCodeChallange.csprojResolveAssemblyReference.cache
