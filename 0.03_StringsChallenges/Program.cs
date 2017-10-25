@@ -39,15 +39,13 @@ namespace _0._03_StringsChallenges
 
             string lowerCase = "tjpage";
             string upperCase = "TJPAGE";
-            int casingIgnored = String.Compare(lowerCase, upperCase, true);
-            int casingMatters = String.Compare(lowerCase, upperCase, false);
      
             Console.WriteLine("The Strings are equal when case is ignored? - {0}",
                         String.Compare(lowerCase, upperCase, true) == 0
-                                       ? "true" : "false");
+                                       ? "yep" : "nope");
             Console.WriteLine("The Strings are equal when case is considered? - {0}",
                         String.Compare(lowerCase, upperCase, false) == 0
-                                       ? "true" : "false");
+                                       ? "yep" : "nope");
             Console.WriteLine("");
 
         }
