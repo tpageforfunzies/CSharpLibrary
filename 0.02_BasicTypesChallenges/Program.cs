@@ -37,7 +37,7 @@ namespace _0._02_BasicTypesChallenges
             //print it with a message to the console
             string birthYear = "1991";
             int yearOfBirth = Int32.Parse(birthYear);
-            Console.WriteLine("I was born in " + yearOfBirth + ".");
+            Console.WriteLine("I was born in {0}.", yearOfBirth);
         }
     }
 }
