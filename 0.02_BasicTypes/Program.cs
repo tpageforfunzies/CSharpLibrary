@@ -34,10 +34,6 @@ namespace _0._02_BasicTypes
             //On the right of the equal sign
             age = 25;
             country = "United States of America";
-
-
-
-
         }
     }
 }
