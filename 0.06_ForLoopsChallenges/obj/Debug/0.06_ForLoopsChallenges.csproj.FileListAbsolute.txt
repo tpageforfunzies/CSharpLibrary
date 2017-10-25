@@ -1,0 +1,7 @@
+C:\DotNetProjects\CSharpLibrary\0.06_ForLoopsChallenges\bin\Debug\0.06_ForLoopsChallenges.exe.config
+C:\DotNetProjects\CSharpLibrary\0.06_ForLoopsChallenges\bin\Debug\0.06_ForLoopsChallenges.exe
+C:\DotNetProjects\CSharpLibrary\0.06_ForLoopsChallenges\bin\Debug\0.06_ForLoopsChallenges.pdb
+C:\DotNetProjects\CSharpLibrary\0.06_ForLoopsChallenges\obj\Debug\0.06_ForLoopsChallenges.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\CSharpLibrary\0.06_ForLoopsChallenges\obj\Debug\0.06_ForLoopsChallenges.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\0.06_ForLoopsChallenges\obj\Debug\0.06_ForLoopsChallenges.exe
+C:\DotNetProjects\CSharpLibrary\0.06_ForLoopsChallenges\obj\Debug\0.06_ForLoopsChallenges.pdb

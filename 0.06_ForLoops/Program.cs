@@ -14,6 +14,18 @@ namespace _0._06_ForLoops
             {
                 Console.WriteLine(i);
             }
+
+            for (int i = 0; i <=10; i++)
+            {
+                if (i == 10)
+                {
+                    Console.WriteLine("It hit 10!");
+                }
+                else
+                {
+                    Console.WriteLine(i);
+                }
+            }
         }
     }
 }
