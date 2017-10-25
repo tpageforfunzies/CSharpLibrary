@@ -7,7 +7,7 @@
     <ProjectGuid>{1EDB7F4C-39AB-4E8F-ABB2-F418882830D7}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_0._06_ForLoops</RootNamespace>
-    <AssemblyName>_0._06_ForLoops</AssemblyName>
+    <AssemblyName>0.06_ForLoops</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
