@@ -12,6 +12,7 @@ namespace _0._06_ForLoopsChallenges
         {
             //------BRONZE------
             //Create a for loop that prints 0-5 into the console
+            Console.WriteLine("------BRONZE------");
             for (int i = 0; i < 6; i++)
             {
                 Console.WriteLine(i);
@@ -20,6 +21,7 @@ namespace _0._06_ForLoopsChallenges
 
             //------SILVER------
             //Create a while loop that prints 0-100 by 5s
+            Console.WriteLine("------SILVER------");
             int counter = 0;
             while (counter <= 100)
             {
@@ -30,6 +32,7 @@ namespace _0._06_ForLoopsChallenges
 
             //------GOLD------
             //fizzbuzz to 100
+            Console.WriteLine("------GOLD------");
             for (int i = 1; i <= 100; i++)
             {
                 if ((i % 3 == 0) && (i % 5 == 0))

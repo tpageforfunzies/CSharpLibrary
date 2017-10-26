@@ -15,6 +15,7 @@ namespace _0._03_StringsChallenges
             //Create examples that show techniques for basic string manipulation.  You'll need to show how to concatenate
             //multiple strings.  Using composite formatting, show how to use escapes, and how to manipulate
             //numbers
+            Console.WriteLine("------BRONZE------");
             string name = "Taylor";
             int age = 25;
             string composite = $"{name} is the man.  \"He is very cool, how he is only {age} is a mystery they all say\".";
@@ -26,6 +27,7 @@ namespace _0._03_StringsChallenges
             //Create a note to a potential employer that states your goals as a developer.
             //Create a potentialEmployerName variable and a date.  Includet he date in the string by 
             //creating a date string that is converted to a short date string
+            Console.WriteLine("------SILVER------");
             string potentialEmployerName = "Google";
             DateTime today = DateTime.Today;
             Console.WriteLine("Dear {0}, today is {1} and I am enjoying my C# class " +
@@ -39,7 +41,8 @@ namespace _0._03_StringsChallenges
 
             string lowerCase = "tjpage";
             string upperCase = "TJPAGE";
-     
+            Console.WriteLine("------GOLD------");
+
             Console.WriteLine("The Strings are equal when case is ignored? - {0}",
                         String.Compare(lowerCase, upperCase, true) == 0
                                        ? "yep" : "nope");

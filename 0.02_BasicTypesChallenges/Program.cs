@@ -29,12 +29,14 @@ namespace _0._02_BasicTypesChallenges
 
             //------SILVER------
             //Concatenate a string from the types above
+            Console.WriteLine("------SILVER------");
             string concat = string2 + " is my name and pi is " + float2 + ".";
             Console.WriteLine(concat);
 
             //------GOLD------
             //Declare year you were born as a string, convert it to an int and 
             //print it with a message to the console
+            Console.WriteLine("------GOLD------");
             string birthYear = "1991";
             int yearOfBirth = Int32.Parse(birthYear);
             Console.WriteLine("I was born in {0}.", yearOfBirth);

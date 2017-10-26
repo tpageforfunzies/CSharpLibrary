@@ -21,11 +21,13 @@ namespace _0._07_ObjectsChallenges
 
             //------SILVER1------
             //method in hotel.cs
+            Console.WriteLine("------SILVER1------");
             Console.WriteLine("The room number is " + fancyHotel.PrintRoomNum() + ".");
             Console.WriteLine("");
 
             //------GOLD1------
             //methos in hotel.cs
+            Console.WriteLine("------GOLD1------");
             Console.WriteLine(fancyHotel.CheckAvail());
             Console.WriteLine("");
 
@@ -33,7 +35,6 @@ namespace _0._07_ObjectsChallenges
             //------BRONZE2------
             //Create a netflix class with properties Name, Genre, Rating
             //Create three objects from that class
-
             Netflix southPark = new Netflix();
             southPark.Rating = 3.9;
             southPark.Genre = "Comedy";
@@ -53,7 +54,7 @@ namespace _0._07_ObjectsChallenges
             //------SILVER2------
             //create a method called GetSuggestion() that returns different messages if the rating is over 4
             //and an else statement
-
+            Console.WriteLine("------SILVER2------");
             Console.WriteLine("South Park: " + southPark.GetSuggestion());
             Console.WriteLine("");
             Console.WriteLine("Big Bang Theory: " + bigBangTheory.GetSuggestion());
@@ -64,7 +65,7 @@ namespace _0._07_ObjectsChallenges
             //create a list of objects based on the netflix class
             //foreach loop through the list and print the name,
             //genre, and rating of each object
-
+            Console.WriteLine("------GOLD2------");
             List<Netflix> shows = new List<Netflix>();
             shows.Add(southPark);
             shows.Add(theOffice);
