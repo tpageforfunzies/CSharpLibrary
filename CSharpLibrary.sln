@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.08_ArraysChallenges", "0.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.04_Euler4", "1.04_Euler4\1.04_Euler4.csproj", "{15623B93-CAAD-4203-8BE7-43AAFD0921D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.05_Euler5", "1.05_Euler5\1.05_Euler5.csproj", "{9C15BD75-7AF6-478E-A829-2B5C51A2CDA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{15623B93-CAAD-4203-8BE7-43AAFD0921D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15623B93-CAAD-4203-8BE7-43AAFD0921D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15623B93-CAAD-4203-8BE7-43AAFD0921D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C15BD75-7AF6-478E-A829-2B5C51A2CDA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C15BD75-7AF6-478E-A829-2B5C51A2CDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C15BD75-7AF6-478E-A829-2B5C51A2CDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C15BD75-7AF6-478E-A829-2B5C51A2CDA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

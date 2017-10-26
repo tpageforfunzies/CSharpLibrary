@@ -1,0 +1,6 @@
+C:\DotNetProjects\CSharpLibrary\1.05_Euler5\bin\Debug\1.05_Euler5.exe.config
+C:\DotNetProjects\CSharpLibrary\1.05_Euler5\bin\Debug\1.05_Euler5.exe
+C:\DotNetProjects\CSharpLibrary\1.05_Euler5\bin\Debug\1.05_Euler5.pdb
+C:\DotNetProjects\CSharpLibrary\1.05_Euler5\obj\Debug\1.05_Euler5.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\1.05_Euler5\obj\Debug\1.05_Euler5.exe
+C:\DotNetProjects\CSharpLibrary\1.05_Euler5\obj\Debug\1.05_Euler5.pdb
