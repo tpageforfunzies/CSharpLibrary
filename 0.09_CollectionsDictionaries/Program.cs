@@ -84,8 +84,6 @@ namespace _0._09_CollectionsDictionaries
                 }
             }
             Console.WriteLine("");
-
-
         }
     }
 }
