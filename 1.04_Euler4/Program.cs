@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _1._03_Euler3
+namespace _1._04_Euler4
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Euler.PrimeFactor(600851475143);
+
         }
     }
 }
