@@ -5,3 +5,10 @@ C:\DotNetProjects\CSharpLibrary\Random\obj\Debug\0.04_ConditionalsPairCodeChalla
 C:\DotNetProjects\CSharpLibrary\Random\obj\Debug\Random.exe
 C:\DotNetProjects\CSharpLibrary\Random\obj\Debug\Random.pdb
 C:\DotNetProjects\CSharpLibrary\Random\obj\Debug\0.04_ConditionalsPairCodeChallange.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\CSharpLibrary\0.04_ConditionalsPairCodeChallenge\bin\Debug\0.04_ConditionalsPairCodeChallange.exe.config
+C:\DotNetProjects\CSharpLibrary\0.04_ConditionalsPairCodeChallenge\bin\Debug\0.04_ConditionalsPairCodeChallange.exe
+C:\DotNetProjects\CSharpLibrary\0.04_ConditionalsPairCodeChallenge\bin\Debug\0.04_ConditionalsPairCodeChallange.pdb
+C:\DotNetProjects\CSharpLibrary\0.04_ConditionalsPairCodeChallenge\obj\Debug\0.04_ConditionalsPairCodeChallange.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\CSharpLibrary\0.04_ConditionalsPairCodeChallenge\obj\Debug\0.04_ConditionalsPairCodeChallange.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\0.04_ConditionalsPairCodeChallenge\obj\Debug\0.04_ConditionalsPairCodeChallange.exe
+C:\DotNetProjects\CSharpLibrary\0.04_ConditionalsPairCodeChallenge\obj\Debug\0.04_ConditionalsPairCodeChallange.pdb

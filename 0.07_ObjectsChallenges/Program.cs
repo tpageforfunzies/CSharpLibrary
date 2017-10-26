@@ -11,7 +11,7 @@ namespace _0._07_ObjectsChallenges
         static void Main(string[] args)
         {
 
-            //------BRONZE------
+            //------BRONZE1------
             //Hotel.cs created
             Hotel fancyHotel = new Hotel();
 
@@ -19,12 +19,12 @@ namespace _0._07_ObjectsChallenges
             fancyHotel.IsAvailable = true;
             fancyHotel.NumBeds = 2;
 
-            //------SILVER------
+            //------SILVER1------
             //method in hotel.cs
             Console.WriteLine("The room number is " + fancyHotel.PrintRoomNum() + ".");
             Console.WriteLine("");
 
-            //------GOLD------
+            //------GOLD1------
             //methos in hotel.cs
             Console.WriteLine(fancyHotel.CheckAvail());
             Console.WriteLine("");
@@ -35,18 +35,18 @@ namespace _0._07_ObjectsChallenges
             //Create three objects from that class
 
             Netflix southPark = new Netflix();
-            southPark.Rating = 4;
+            southPark.Rating = 3.9;
             southPark.Genre = "Comedy";
             southPark.Name = "South Park";
 
             Netflix theOffice = new Netflix();
-            theOffice.Rating = 5;
+            theOffice.Rating = 5.0;
             theOffice.Genre = "Comedy";
             theOffice.Name = "The Office";
 
             Netflix bigBangTheory = new Netflix();
-            bigBangTheory.Rating = 1;
-            bigBangTheory.Genre = "Comedy";
+            bigBangTheory.Rating = 0.1;
+            bigBangTheory.Genre = "Psychological Horror";
             bigBangTheory.Name = "Big Bang Theory";
 
 
@@ -74,7 +74,8 @@ namespace _0._07_ObjectsChallenges
             {
                 Console.WriteLine("Name: " + show.Name);
                 Console.WriteLine("Genre: " + show.Genre);
-                Console.WriteLine("Rating: " + show.Rating);
+                Console.WriteLine("Rating: " + show.Rating + " Stars");
+                Console.WriteLine("Suggestion: " + show.GetSuggestion());
                 Console.WriteLine("");
             }
 
