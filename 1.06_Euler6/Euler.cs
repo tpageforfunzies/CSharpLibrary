@@ -8,7 +8,7 @@ namespace _1._06_Euler6
 {
     class Euler
     {
-        public static int sumOfSquare(int num)
+        public static int SumOfSquare(int num)
         {
             int total = 0;
 
@@ -20,7 +20,7 @@ namespace _1._06_Euler6
             return total;
         }
 
-        public static int squareOfSum(int num)
+        public static int SquareOfSum(int num)
         {
             int total = 0;
 
@@ -35,9 +35,9 @@ namespace _1._06_Euler6
 
         }
 
-        public static int difference(int num)
+        public static int Difference(int num)
         {
-            return (squareOfSum(num) - sumOfSquare(num));
+            return (SquareOfSum(num) - SumOfSquare(num));
         }
     }
 }

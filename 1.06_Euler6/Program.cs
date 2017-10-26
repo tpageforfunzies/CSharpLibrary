@@ -10,7 +10,7 @@ namespace _1._06_Euler6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Euler.difference(100));
+            Console.WriteLine(Euler.Difference(100));
         }
     }
 }

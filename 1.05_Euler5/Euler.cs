@@ -8,7 +8,7 @@ namespace _1._05_Euler5
 {
     class Euler
     {
-        public static int smallestMultiple()
+        public static int SmallestMultiple()
         {
             //starting the number we're checking at 1
             int number = 1;

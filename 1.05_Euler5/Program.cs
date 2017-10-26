@@ -10,7 +10,7 @@ namespace _1._05_Euler5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Euler.smallestMultiple());
+            Console.WriteLine(Euler.SmallestMultiple());
         }
     }
 }
