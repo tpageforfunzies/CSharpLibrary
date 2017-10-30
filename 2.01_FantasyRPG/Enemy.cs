@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2._01_FantasyRPG
 {
-    class Enemy
+    abstract class Enemy
     {
         public double DodgeChance { get; set; }
         public int Level { get; set; }
@@ -18,15 +18,18 @@ namespace _2._01_FantasyRPG
         public string Art { get; set; }
 
 
-        public void Attack()
+        public void Attack(Player player)
         {
-            Console.WriteLine($"{this.Name} dealt {this.AttackPower} damage!");
-            DamageOut = AttackPower;
+            Console.WriteLine($"\n{Name} attacks!");
+            Console.WriteLine($"{Name} dealt {(AttackPower - player.Defense)} damage!");
+            player.HitPoints -= (AttackPower - player.Defense);
+            Console.WriteLine($"{player.Name} has {player.HitPoints} HP left.\n");
         }
 
         public void Announce()
         {
-            Console.WriteLine($"              RAWRRRRRR IM A BIG SCARY {this.Name}\n");
+            Console.WriteLine(Art);
+            Console.WriteLine($"              RAWRRRRRR IM A BIG SCARY {Name}\n");
         }
     }
 }

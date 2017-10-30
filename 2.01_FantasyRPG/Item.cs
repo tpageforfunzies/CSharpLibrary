@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2._01_FantasyRPG
 {
-    class Item
+    abstract class Item
     {
         public int Attack { get; set; }
         public int Defense { get; set; }

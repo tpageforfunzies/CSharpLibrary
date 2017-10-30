@@ -12,7 +12,7 @@ namespace _2._01_FantasyRPG
         {
             DodgeChance = 0.2;
             Level = 1;
-            AttackPower = 1;
+            AttackPower = 3;
             Name = "BAT";
             HitPoints = 10;
             Experience = 2;

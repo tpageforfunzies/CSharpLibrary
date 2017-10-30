@@ -8,6 +8,7 @@ namespace _2._01_FantasyRPG
 {
     class Player
     {
+        //constructor
         public Player(string name)
         {
             Level = 1;
@@ -35,34 +36,38 @@ namespace _2._01_FantasyRPG
         public void Stats()
         {
             Console.WriteLine("Your current stats are as follows: ");
-            Console.WriteLine($"Level: {this.Level}");
-            Console.WriteLine($"HP: {this.HitPoints}");
-            Console.WriteLine($"Attack: {this.AttackPower}");
-            Console.WriteLine($"Defense: {this.Defense}");
-            Console.WriteLine($"Dodge Chance: {this.DodgeChance.ToString("##%")}");
-            Console.WriteLine($"Critical Chance: {this.CriticalChance.ToString("##%")}");
-            Console.WriteLine($"Experience Points: {this.Experience}\n");
+            Console.WriteLine($"Level: {Level}");
+            Console.WriteLine($"HP: {HitPoints}");
+            Console.WriteLine($"Attack: {AttackPower}");
+            Console.WriteLine($"Defense: {Defense}");
+            Console.WriteLine($"Dodge Chance: {DodgeChance.ToString("##%")}");
+            Console.WriteLine($"Critical Chance: {CriticalChance.ToString("##%")}");
+            Console.WriteLine($"Experience Points: {Experience}\n");
         }
 
-        public void Attack()
+        public void Attack(Enemy enemy)
         {
             double critRoll = rand.NextDouble();
             double dodgeRoll = rand.NextDouble();
-            Console.WriteLine($"{Name} attacks!");
+            Console.WriteLine($"\n{Name} attacks!");
 
             if (critRoll <= CriticalChance)
             {
                 Console.WriteLine("Your attack was a critical strike!");
                 Console.WriteLine($"You dealt {(AttackPower * 2)} damage!");
-                DamageOut = (AttackPower * 2);
-
-
+                enemy.HitPoints -= (AttackPower * 2);
             }
             else
             {
-                Console.WriteLine($"You dealt {this.AttackPower} damage!");
-                DamageOut = AttackPower;
+                Console.WriteLine($"You dealt {AttackPower} damage!");
+                enemy.HitPoints -= AttackPower;
             }
+            if (enemy.HitPoints > 0)
+            {
+                Console.WriteLine($"The {enemy.Name} has {enemy.HitPoints} HP left.\n");
+            }
+
+
         }
     }
 }

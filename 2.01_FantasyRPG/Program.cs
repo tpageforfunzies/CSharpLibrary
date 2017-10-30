@@ -24,7 +24,7 @@ namespace _2._01_FantasyRPG
             //adventure loop
             while (true)
             {
-                Console.WriteLine("Are you ready to fight a monster? Yes or No");
+                Console.WriteLine("Are you ready to fight a monster? Yes or No to quit");
                 string battleReady = Console.ReadLine();
                 int mobSpawn = rand.Next(2);
                 if (battleReady.ToLower() == "yes")
@@ -32,46 +32,99 @@ namespace _2._01_FantasyRPG
                     if (mobSpawn == 0)
                     {
                         Bat bat = new Bat();
-                        Console.WriteLine(bat.Art);
                         bat.Announce();
 
                         //battle loop
                         while (bat.HitPoints > 0 || player.HitPoints > 0)
                         {
-                            player.Attack();
-                            bat.HitPoints -= player.DamageOut;
                             if (bat.HitPoints <= 0)
                             {
                                 Console.WriteLine("You defeated the bat!\n");
                                 break;
                             }
-                            Console.WriteLine($"The bat has {bat.HitPoints} HP left.\n");
-                            bat.Attack();
-                            player.HitPoints -= (bat.DamageOut - player.Defense);
-                            Console.WriteLine($"{player.Name} has {player.HitPoints} HP left.\n");
+                            if (player.HitPoints <= 0)
+                            {
+                                Console.WriteLine("You died.");
+                                break;
+                            }
+
+                            Console.WriteLine("Do you want to attack? Yes or No.");
+                            string ready = Console.ReadLine();
+
+                            if (ready.ToLower() != "no" && ready.ToLower() != "yes")
+                            {
+                                Console.WriteLine("Try that again.");
+                            }
+
+                            else if (bat.HitPoints > 0 && ready.ToLower() == "yes")
+                            {
+                                Console.WriteLine(bat.Art);
+                                player.Attack(bat);
+                                bat.Attack(player);
+
+                            }
+
+                            else if (ready.ToLower() == "no")
+                            {
+                                Console.WriteLine("Well that's anti-climactic.\n");
+                                break;
+                            }
+
+                            else
+                            {
+                                break;
+                            }
+
                         }
                         
                     }
                     else
                     {
                         Ogre ogre = new Ogre();
-                        Console.WriteLine(ogre.Art);
                         ogre.Announce();
 
                         //battle loop
                         while (ogre.HitPoints > 0 || player.HitPoints > 0)
                         {
-                            player.Attack();
-                            ogre.HitPoints -= player.DamageOut;
                             if (ogre.HitPoints <= 0)
                             {
                                 Console.WriteLine("You defeated the ogre!\n");
                                 break;
                             }
-                            Console.WriteLine($"The ogre has {ogre.HitPoints} HP left.\n");
-                            ogre.Attack();
-                            player.HitPoints -= (ogre.DamageOut - player.Defense);
-                            Console.WriteLine($"{player.Name} has {player.HitPoints} HP left.\n");
+                            if (player.HitPoints <= 0)
+                            {
+                                Console.WriteLine("You died.");
+                                break;
+                            }
+
+                            Console.WriteLine("Do you want to attack? Yes or No.");
+                            string ready = Console.ReadLine();
+
+                            if (ready.ToLower() != "no" && ready.ToLower() != "yes")
+                            {
+                                Console.WriteLine("Try that again.");
+                                ready = Console.ReadLine();
+                            }
+
+                            else if (ogre.HitPoints > 0 && ready.ToLower() == "yes")
+                            {
+                                Console.WriteLine(ogre.Art);
+                                player.Attack(ogre);
+                                ogre.Attack(player);
+
+                            }
+
+                            else if (ready.ToLower() == "no")
+                            {
+                                Console.WriteLine("Well that's anti-climactic.");
+                                break;
+                            }
+
+                            else
+                            {
+                                break;
+                            }
+
                         }
                     }
 

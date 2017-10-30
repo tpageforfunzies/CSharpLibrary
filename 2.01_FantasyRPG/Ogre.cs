@@ -12,7 +12,7 @@ namespace _2._01_FantasyRPG
         {
             DodgeChance = 0.05;
             Level = 1;
-            AttackPower = 2;
+            AttackPower = 5;
             Name = "OGRE";
             HitPoints = 20;
             Experience = 5;
