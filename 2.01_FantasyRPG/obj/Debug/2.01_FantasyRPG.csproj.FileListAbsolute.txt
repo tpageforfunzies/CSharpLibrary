@@ -1,0 +1,7 @@
+C:\DotNetProjects\CSharpLibrary\2.01_FantasyRPG\bin\Debug\2.01_FantasyRPG.exe.config
+C:\DotNetProjects\CSharpLibrary\2.01_FantasyRPG\bin\Debug\2.01_FantasyRPG.exe
+C:\DotNetProjects\CSharpLibrary\2.01_FantasyRPG\bin\Debug\2.01_FantasyRPG.pdb
+C:\DotNetProjects\CSharpLibrary\2.01_FantasyRPG\obj\Debug\2.01_FantasyRPG.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\2.01_FantasyRPG\obj\Debug\2.01_FantasyRPG.exe
+C:\DotNetProjects\CSharpLibrary\2.01_FantasyRPG\obj\Debug\2.01_FantasyRPG.pdb
+C:\DotNetProjects\CSharpLibrary\2.01_FantasyRPG\obj\Debug\2.01_FantasyRPG.csprojResolveAssemblyReference.cache

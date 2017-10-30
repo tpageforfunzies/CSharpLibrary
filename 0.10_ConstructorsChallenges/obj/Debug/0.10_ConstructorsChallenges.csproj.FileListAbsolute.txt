@@ -4,3 +4,4 @@ C:\DotNetProjects\CSharpLibrary\0.10_ConstructorsChallenges\bin\Debug\0.10_Const
 C:\DotNetProjects\CSharpLibrary\0.10_ConstructorsChallenges\obj\Debug\0.10_ConstructorsChallenges.csproj.CoreCompileInputs.cache
 C:\DotNetProjects\CSharpLibrary\0.10_ConstructorsChallenges\obj\Debug\0.10_ConstructorsChallenges.exe
 C:\DotNetProjects\CSharpLibrary\0.10_ConstructorsChallenges\obj\Debug\0.10_ConstructorsChallenges.pdb
+C:\DotNetProjects\CSharpLibrary\0.10_ConstructorsChallenges\obj\Debug\0.10_ConstructorsChallenges.csprojResolveAssemblyReference.cache
