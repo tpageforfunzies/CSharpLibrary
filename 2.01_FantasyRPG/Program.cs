@@ -10,17 +10,16 @@ namespace _2._01_FantasyRPG
     {
         static void Main(string[] args)
         {
-            string playerName;
             Random rand = new Random();
 
             Console.WriteLine("Welcome to the worst RPG you've ever played!");
             Console.WriteLine("What is your name, brave warrior?");
-            playerName = Console.ReadLine();
+            string playerName = Console.ReadLine();
 
-            Player Player = new Player(playerName);
+            Player player = new Player(playerName);
 
-            Console.WriteLine($"\nWelcome to the world, {Player.Name}.");
-            Player.Stats();
+            Console.WriteLine($"\nWelcome to my world, {player.Name}.");
+            player.Stats();
 
             //adventure loop
             while (true)
@@ -32,47 +31,47 @@ namespace _2._01_FantasyRPG
                 {
                     if (mobSpawn == 0)
                     {
-                        Bat Bat = new Bat();
-                        Console.WriteLine(Bat.Art);
-                        Bat.Announce();
+                        Bat bat = new Bat();
+                        Console.WriteLine(bat.Art);
+                        bat.Announce();
 
                         //battle loop
-                        while (Bat.HitPoints > 0 || Player.HitPoints > 0)
+                        while (bat.HitPoints > 0 || player.HitPoints > 0)
                         {
-                            Player.Attack();
-                            Bat.HitPoints -= Player.DamageOut;
-                            if (Bat.HitPoints <= 0)
+                            player.Attack();
+                            bat.HitPoints -= player.DamageOut;
+                            if (bat.HitPoints <= 0)
                             {
                                 Console.WriteLine("You defeated the bat!\n");
                                 break;
                             }
-                            Console.WriteLine($"The bat has {Bat.HitPoints} HP left.\n");
-                            Bat.Attack();
-                            Player.HitPoints -= Bat.DamageOut;
-                            Console.WriteLine($"{Player.Name} has {Player.HitPoints} HP left.\n");
+                            Console.WriteLine($"The bat has {bat.HitPoints} HP left.\n");
+                            bat.Attack();
+                            player.HitPoints -= (bat.DamageOut - player.Defense);
+                            Console.WriteLine($"{player.Name} has {player.HitPoints} HP left.\n");
                         }
                         
                     }
                     else
                     {
-                        Ogre Ogre = new Ogre();
-                        Console.WriteLine(Ogre.Art);
-                        Ogre.Announce();
+                        Ogre ogre = new Ogre();
+                        Console.WriteLine(ogre.Art);
+                        ogre.Announce();
 
                         //battle loop
-                        while (Ogre.HitPoints > 0 || Player.HitPoints > 0)
+                        while (ogre.HitPoints > 0 || player.HitPoints > 0)
                         {
-                            Player.Attack();
-                            Ogre.HitPoints -= Player.DamageOut;
-                            if (Ogre.HitPoints <= 0)
+                            player.Attack();
+                            ogre.HitPoints -= player.DamageOut;
+                            if (ogre.HitPoints <= 0)
                             {
                                 Console.WriteLine("You defeated the ogre!\n");
                                 break;
                             }
-                            Console.WriteLine($"The ogre has {Ogre.HitPoints} HP left.\n");
-                            Ogre.Attack();
-                            Player.HitPoints -= Ogre.DamageOut;
-                            Console.WriteLine($"{Player.Name} has {Player.HitPoints} HP left.\n");
+                            Console.WriteLine($"The ogre has {ogre.HitPoints} HP left.\n");
+                            ogre.Attack();
+                            player.HitPoints -= (ogre.DamageOut - player.Defense);
+                            Console.WriteLine($"{player.Name} has {player.HitPoints} HP left.\n");
                         }
                     }
 
