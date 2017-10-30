@@ -53,14 +53,14 @@ namespace _2._01_FantasyRPG
             if (critRoll <= CriticalChance)
             {
                 Console.WriteLine("Your attack was a critical strike!");
-                Console.WriteLine($"You dealt {(AttackPower * 2)} damage!\n");
+                Console.WriteLine($"You dealt {(AttackPower * 2)} damage!");
                 DamageOut = (AttackPower * 2);
 
 
             }
             else
             {
-                Console.WriteLine($"You dealt {this.AttackPower} damage!\n");
+                Console.WriteLine($"You dealt {this.AttackPower} damage!");
                 DamageOut = AttackPower;
             }
         }

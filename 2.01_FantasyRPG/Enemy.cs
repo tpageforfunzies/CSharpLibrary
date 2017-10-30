@@ -20,7 +20,7 @@ namespace _2._01_FantasyRPG
 
         public void Attack()
         {
-            Console.WriteLine($"{this.Name} dealt {this.AttackPower}\n");
+            Console.WriteLine($"{this.Name} dealt {this.AttackPower} damage!");
             DamageOut = AttackPower;
         }
 

@@ -19,7 +19,7 @@ namespace _2._01_FantasyRPG
 
             Player Player = new Player(playerName);
 
-            Console.WriteLine($"\nWelcome to the world, brave {Player.Name}.");
+            Console.WriteLine($"\nWelcome to the world, {Player.Name}.");
             Player.Stats();
 
             //adventure loop
@@ -43,13 +43,13 @@ namespace _2._01_FantasyRPG
                             Bat.HitPoints -= Player.DamageOut;
                             if (Bat.HitPoints <= 0)
                             {
-                                Console.WriteLine("You defeated the bat!");
+                                Console.WriteLine("You defeated the bat!\n");
                                 break;
                             }
-                            Console.WriteLine($"The bat has {Bat.HitPoints} HP left.");
+                            Console.WriteLine($"The bat has {Bat.HitPoints} HP left.\n");
                             Bat.Attack();
                             Player.HitPoints -= Bat.DamageOut;
-                            Console.WriteLine($"{Player.Name} has {Player.HitPoints} HP left.");
+                            Console.WriteLine($"{Player.Name} has {Player.HitPoints} HP left.\n");
                         }
                         
                     }
@@ -66,13 +66,13 @@ namespace _2._01_FantasyRPG
                             Ogre.HitPoints -= Player.DamageOut;
                             if (Ogre.HitPoints <= 0)
                             {
-                                Console.WriteLine("You defeated the ogre!");
+                                Console.WriteLine("You defeated the ogre!\n");
                                 break;
                             }
-                            Console.WriteLine($"The ogre has {Ogre.HitPoints} HP left.");
+                            Console.WriteLine($"The ogre has {Ogre.HitPoints} HP left.\n");
                             Ogre.Attack();
                             Player.HitPoints -= Ogre.DamageOut;
-                            Console.WriteLine($"{Player.Name} has {Player.HitPoints} HP left.");
+                            Console.WriteLine($"{Player.Name} has {Player.HitPoints} HP left.\n");
                         }
                     }
 
