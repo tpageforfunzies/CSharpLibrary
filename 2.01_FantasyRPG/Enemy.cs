@@ -15,6 +15,7 @@ namespace _2._01_FantasyRPG
         public int HitPoints { get; set; }
         public int Experience { get; set; }
         public int DamageOut { get; set; }
+        public string Art { get; set; }
 
 
         public void Attack()
@@ -25,7 +26,7 @@ namespace _2._01_FantasyRPG
 
         public void Announce()
         {
-            Console.WriteLine($"RAWRRRRRR IM A BIG SCARY {this.Name}\n");
+            Console.WriteLine($"              RAWRRRRRR IM A BIG SCARY {this.Name}\n");
         }
     }
 }

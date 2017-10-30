@@ -16,6 +16,12 @@ namespace _2._01_FantasyRPG
             Name = "BAT";
             HitPoints = 10;
             Experience = 2;
+            //UGLY ASS ASCII ART, GOD FORGIVE ME FOR THIS
+            Art = "     " +
+                  "            _..__.          .__.._\r\n       " +
+                  "        .^\"-.._ \'-(\\__/)-\' _..-\"^.\r\n           " +
+                  "           \'-.\' oo \'.-\'\r\n                      " +
+                  "   `-..-\'     ";
 
         }
     }

@@ -33,6 +33,7 @@ namespace _2._01_FantasyRPG
                     if (mobSpawn == 0)
                     {
                         Bat Bat = new Bat();
+                        Console.WriteLine(Bat.Art);
                         Bat.Announce();
 
                         //battle loop
@@ -48,13 +49,14 @@ namespace _2._01_FantasyRPG
                             Console.WriteLine($"The bat has {Bat.HitPoints} HP left.");
                             Bat.Attack();
                             Player.HitPoints -= Bat.DamageOut;
-                            Console.WriteLine($"{Player.Name} has {Player.HitPoints} left.");
+                            Console.WriteLine($"{Player.Name} has {Player.HitPoints} HP left.");
                         }
                         
                     }
                     else
                     {
                         Ogre Ogre = new Ogre();
+                        Console.WriteLine(Ogre.Art);
                         Ogre.Announce();
 
                         //battle loop
