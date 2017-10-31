@@ -47,10 +47,9 @@ namespace _2._01_FantasyRPG
 
         public void Attack(Enemy enemy)
         {
-            double critRoll = rand.NextDouble();
             Console.WriteLine($"\n{Name} attacks!");
 
-            if (critRoll <= CriticalChance)
+            if (CritCheck())
             {
                 Console.WriteLine("Your attack was a critical strike!");
                 Console.WriteLine($"You dealt {(AttackPower * 2)} damage!");
@@ -72,14 +71,25 @@ namespace _2._01_FantasyRPG
         public bool DodgeCheck()
         {
             double dodgeRoll = rand.NextDouble();
+
             if (dodgeRoll <= DodgeChance)
             {
                 return true;
             }
-            else
+
+            return false;
+        }
+
+        public bool CritCheck()
+        {
+            double critRoll = rand.NextDouble();
+
+            if (critRoll <= CriticalChance)
             {
-                return false;
+                return true;
             }
+
+            return false;
         }
     }
 }

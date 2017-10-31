@@ -1,0 +1,6 @@
+C:\DotNetProjects\CSharpLibrary\0.12_Enums\bin\Debug\0.12_Enums.exe.config
+C:\DotNetProjects\CSharpLibrary\0.12_Enums\bin\Debug\0.12_Enums.exe
+C:\DotNetProjects\CSharpLibrary\0.12_Enums\bin\Debug\0.12_Enums.pdb
+C:\DotNetProjects\CSharpLibrary\0.12_Enums\obj\Debug\0.12_Enums.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\0.12_Enums\obj\Debug\0.12_Enums.exe
+C:\DotNetProjects\CSharpLibrary\0.12_Enums\obj\Debug\0.12_Enums.pdb

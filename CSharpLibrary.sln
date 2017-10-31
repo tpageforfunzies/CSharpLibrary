@@ -49,6 +49,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.10_ConstructorsChallenges
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.01_FantasyRPG", "2.01_FantasyRPG\2.01_FantasyRPG.csproj", "{8C56EEFD-7278-48BC-884D-4F9B585A882C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.11_Inheritance", "0.11_Inheritance\0.11_Inheritance.csproj", "{0140F846-B7CA-4584-B1B4-54709A943CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.12_Enums", "0.12_Enums\0.12_Enums.csproj", "{1C1C633E-CF39-435F-9E6E-58296FD1E9B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +151,14 @@ Global
 		{8C56EEFD-7278-48BC-884D-4F9B585A882C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C56EEFD-7278-48BC-884D-4F9B585A882C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C56EEFD-7278-48BC-884D-4F9B585A882C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0140F846-B7CA-4584-B1B4-54709A943CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0140F846-B7CA-4584-B1B4-54709A943CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0140F846-B7CA-4584-B1B4-54709A943CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0140F846-B7CA-4584-B1B4-54709A943CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C1C633E-CF39-435F-9E6E-58296FD1E9B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C1C633E-CF39-435F-9E6E-58296FD1E9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C1C633E-CF39-435F-9E6E-58296FD1E9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C1C633E-CF39-435F-9E6E-58296FD1E9B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
