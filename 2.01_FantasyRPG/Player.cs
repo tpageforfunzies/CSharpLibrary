@@ -48,7 +48,6 @@ namespace _2._01_FantasyRPG
         public void Attack(Enemy enemy)
         {
             double critRoll = rand.NextDouble();
-            double dodgeRoll = rand.NextDouble();
             Console.WriteLine($"\n{Name} attacks!");
 
             if (critRoll <= CriticalChance)
@@ -68,6 +67,19 @@ namespace _2._01_FantasyRPG
             }
 
 
+        }
+
+        public bool DodgeCheck()
+        {
+            double dodgeRoll = rand.NextDouble();
+            if (dodgeRoll <= DodgeChance)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

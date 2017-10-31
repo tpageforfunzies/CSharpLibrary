@@ -35,19 +35,8 @@ namespace _2._01_FantasyRPG
                         bat.Announce();
 
                         //battle loop
-                        while (bat.HitPoints > 0 || player.HitPoints > 0)
+                        while (bat.HitPoints > 0 && player.HitPoints > 0)
                         {
-                            if (bat.HitPoints <= 0)
-                            {
-                                Console.WriteLine("You defeated the bat!\n");
-                                break;
-                            }
-                            if (player.HitPoints <= 0)
-                            {
-                                Console.WriteLine("You died.");
-                                break;
-                            }
-
                             Console.WriteLine("Do you want to attack? Yes or No.");
                             string ready = Console.ReadLine();
 
@@ -60,7 +49,14 @@ namespace _2._01_FantasyRPG
                             {
                                 Console.WriteLine(bat.Art);
                                 player.Attack(bat);
-                                bat.Attack(player);
+                                if (bat.HitPoints > 0)
+                                {
+                                    if (player.DodgeCheck())
+                                    {
+                                        Console.WriteLine("You dodged the bat's attack!");
+                                    }
+                                    bat.Attack(player);
+                                }
 
                             }
 
@@ -84,19 +80,8 @@ namespace _2._01_FantasyRPG
                         ogre.Announce();
 
                         //battle loop
-                        while (ogre.HitPoints > 0 || player.HitPoints > 0)
+                        while (ogre.HitPoints > 0 && player.HitPoints > 0)
                         {
-                            if (ogre.HitPoints <= 0)
-                            {
-                                Console.WriteLine("You defeated the ogre!\n");
-                                break;
-                            }
-                            if (player.HitPoints <= 0)
-                            {
-                                Console.WriteLine("You died.");
-                                break;
-                            }
-
                             Console.WriteLine("Do you want to attack? Yes or No.");
                             string ready = Console.ReadLine();
 
@@ -110,7 +95,14 @@ namespace _2._01_FantasyRPG
                             {
                                 Console.WriteLine(ogre.Art);
                                 player.Attack(ogre);
-                                ogre.Attack(player);
+                                if (ogre.HitPoints > 0)
+                                {
+                                    if (player.DodgeCheck())
+                                    {
+                                        Console.WriteLine("You dodged the ogre's attack!");
+                                    }
+                                    ogre.Attack(player);
+                                }
 
                             }
 
