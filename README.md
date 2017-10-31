@@ -1,10 +1,8 @@
 # CSharpLibrary
 
-This is a simple C# console based RPG game.  It is just a side project to practice OOP principles.  
+<h2>This is a simple C# console based RPG game.  It is just a side project to practice OOP principles.  </h2>
 
-To-Do:
-  Boss Battles
-    Classes are already made for this.
-  Loot System
-    Classes are already made for this.
-  Perfect the looping
+  <ul>To-Do:</ul>
+  <li>Boss Battles</li>
+  <li>Loot System</li>
+  <li>Finish Looping</li>
