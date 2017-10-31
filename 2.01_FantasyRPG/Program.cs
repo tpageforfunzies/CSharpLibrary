@@ -33,99 +33,15 @@ namespace _2._01_FantasyRPG
                     {
                         Bat bat = new Bat();
                         bat.Announce();
-
-                        //battle loop
-                        while (bat.HitPoints > 0 && player.HitPoints > 0)
-                        {
-                            Console.WriteLine("Do you want to attack? Yes or No.");
-                            string ready = Console.ReadLine();
-
-                            if (ready.ToLower() != "no" && ready.ToLower() != "yes")
-                            {
-                                Console.WriteLine("Try that again.");
-                            }
-
-                            else if (bat.HitPoints > 0 && ready.ToLower() == "yes")
-                            {
-                                Console.Clear();
-                                Console.WriteLine(bat.Art);
-                                player.Attack(bat);
-                                if (bat.HitPoints > 0 && !player.DodgeCheck())
-                                {
-                                    bat.Attack(player);
-                                }
-                                else if (player.DodgeCheck())
-                                {
-                                    Console.WriteLine("You dodged the bat's attack!");
-                                }
-
-
-                            }
-                            else if (ready.ToLower() == "no")
-                            {
-                                Console.WriteLine("Well that's anti-climactic.\n");
-                                break;
-                            }
-
-                            else
-                            {
-                                break;
-                            }
-
-                        }
-                        if (player.HitPoints <= 0)
-                        {
-                            player.Reset();
-                        }
+                        Battle battle = new Battle(bat, player);
+                        battle.Fight();
                     }
                     else
                     {
                         Ogre ogre = new Ogre();
                         ogre.Announce();
-
-                        //battle loop
-                        while (ogre.HitPoints > 0 && player.HitPoints > 0)
-                        {
-                            Console.WriteLine("Do you want to attack? Yes or No.");
-                            string ready = Console.ReadLine();
-
-                            if (ready.ToLower() != "no" && ready.ToLower() != "yes")
-                            {
-                                Console.WriteLine("Try that again.");
-                            }
-
-                            else if (ogre.HitPoints > 0 && ready.ToLower() == "yes")
-                            {
-                                Console.Clear();
-                                Console.WriteLine(ogre.Art);
-                                player.Attack(ogre);
-                                if (ogre.HitPoints > 0 && !player.DodgeCheck())
-                                {
-
-                                    ogre.Attack(player);
-                                }
-                                else if (player.DodgeCheck())
-                                {
-                                    Console.WriteLine("You dodged the ogre's attack!");
-                                }
-                            }
-                            else if (ready.ToLower() == "no")
-                            {
-                                Console.WriteLine("Well that's anti-climactic.\n");
-                                break;
-                            }
-
-                            else
-                            {
-                                break;
-                            }
-
-                        }
-                        if (player.HitPoints <= 0)
-                        {
-                            player.Reset();
-                        }
-
+                        Battle battle = new Battle(ogre, player);
+                        battle.Fight();
                     }
 
                 }
