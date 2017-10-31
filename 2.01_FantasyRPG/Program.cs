@@ -24,7 +24,7 @@ namespace _2._01_FantasyRPG
             //adventure loop
             while (true)
             {
-                Console.WriteLine("Are you ready to fight a monster? Yes or No to quit");
+                Console.WriteLine("\nAre you ready to fight a monster? Yes or No to quit");
                 string battleReady = Console.ReadLine();
                 int mobSpawn = rand.Next(2);
                 if (battleReady.ToLower() == "yes")
@@ -47,19 +47,20 @@ namespace _2._01_FantasyRPG
 
                             else if (bat.HitPoints > 0 && ready.ToLower() == "yes")
                             {
+                                Console.Clear();
                                 Console.WriteLine(bat.Art);
                                 player.Attack(bat);
-                                if (bat.HitPoints > 0)
+                                if (bat.HitPoints > 0 && !player.DodgeCheck())
                                 {
-                                    if (player.DodgeCheck())
-                                    {
-                                        Console.WriteLine("You dodged the bat's attack!");
-                                    }
                                     bat.Attack(player);
                                 }
+                                else if (player.DodgeCheck())
+                                {
+                                    Console.WriteLine("You dodged the bat's attack!");
+                                }
+
 
                             }
-
                             else if (ready.ToLower() == "no")
                             {
                                 Console.WriteLine("Well that's anti-climactic.\n");
@@ -72,7 +73,10 @@ namespace _2._01_FantasyRPG
                             }
 
                         }
-                        
+                        if (player.HitPoints <= 0)
+                        {
+                            player.Reset();
+                        }
                     }
                     else
                     {
@@ -88,27 +92,26 @@ namespace _2._01_FantasyRPG
                             if (ready.ToLower() != "no" && ready.ToLower() != "yes")
                             {
                                 Console.WriteLine("Try that again.");
-                                ready = Console.ReadLine();
                             }
 
                             else if (ogre.HitPoints > 0 && ready.ToLower() == "yes")
                             {
+                                Console.Clear();
                                 Console.WriteLine(ogre.Art);
                                 player.Attack(ogre);
-                                if (ogre.HitPoints > 0)
+                                if (ogre.HitPoints > 0 && !player.DodgeCheck())
                                 {
-                                    if (player.DodgeCheck())
-                                    {
-                                        Console.WriteLine("You dodged the ogre's attack!");
-                                    }
+
                                     ogre.Attack(player);
                                 }
-
+                                else if (player.DodgeCheck())
+                                {
+                                    Console.WriteLine("You dodged the ogre's attack!");
+                                }
                             }
-
                             else if (ready.ToLower() == "no")
                             {
-                                Console.WriteLine("Well that's anti-climactic.");
+                                Console.WriteLine("Well that's anti-climactic.\n");
                                 break;
                             }
 
@@ -118,6 +121,11 @@ namespace _2._01_FantasyRPG
                             }
 
                         }
+                        if (player.HitPoints <= 0)
+                        {
+                            player.Reset();
+                        }
+
                     }
 
                 }

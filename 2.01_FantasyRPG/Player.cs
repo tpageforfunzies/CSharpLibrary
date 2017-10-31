@@ -91,5 +91,10 @@ namespace _2._01_FantasyRPG
 
             return false;
         }
+
+        public void Reset()
+        {
+            HitPoints = 10;
+        }
     }
 }

@@ -23,13 +23,25 @@ namespace _2._01_FantasyRPG
             Console.WriteLine($"\n{Name} attacks!");
             Console.WriteLine($"{Name} dealt {(AttackPower - player.Defense)} damage!");
             player.HitPoints -= (AttackPower - player.Defense);
-            Console.WriteLine($"{player.Name} has {player.HitPoints} HP left.\n");
+            if (HitPoints <= 0)
+            {
+                Console.WriteLine($"{player.Name} defeated the {Name}!");
+            }
+            else if (player.HitPoints <= 0)
+            {
+                Console.WriteLine($"The {Name} has defeated you.");
+            }
+            else
+            {
+                Console.WriteLine($"{player.Name} has {player.HitPoints} HP left.\n");
+
+            }
         }
 
         public void Announce()
         {
             Console.WriteLine(Art);
-            Console.WriteLine($"              RAWRRRRRR IM A BIG SCARY {Name}\n");
+            Console.WriteLine($"                   RAWRRRRRR IM A BIG SCARY {Name}\n");
         }
     }
 }
