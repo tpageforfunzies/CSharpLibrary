@@ -54,6 +54,7 @@ namespace _2._01_FantasyRPG
                         dragon.Announce();
                         Battle battle = new Battle(dragon, player);
                         battle.Fight();
+                        dragon.LevelUp(player);
                     }
                     if (bossSpawn == 1)
                     {
@@ -61,6 +62,7 @@ namespace _2._01_FantasyRPG
                         demon.Announce();
                         Battle battle = new Battle(demon, player);
                         battle.Fight();
+                        demon.LevelUp(player);
                     }
                 }
                 else

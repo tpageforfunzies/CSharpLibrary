@@ -52,5 +52,12 @@ namespace _2._01_FantasyRPG
             Console.WriteLine(Art);
             Console.WriteLine($"                   RAWRRRRRR IM A BIG SCARY {Name.ToUpper()}\n");
         }
+
+        public void LevelUp(Player player)
+        {
+            Console.WriteLine("You have leveled up!");
+            player.Level += 1;
+            player.Stats();
+        }
     }
 }
