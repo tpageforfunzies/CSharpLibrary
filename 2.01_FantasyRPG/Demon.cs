@@ -17,7 +17,7 @@ namespace _2._01_FantasyRPG
             HitPoints = 42;
             Experience = 5;
             //UGLY ASS ASCII ART, GOD FORGIVE ME FOR THIS
-            Art = "DEMON PICTURE GOES HERE";
+            Art = "\nDEMON PICTURE GOES HERE";
         }
     }
 }
