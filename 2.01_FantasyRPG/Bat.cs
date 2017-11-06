@@ -13,7 +13,7 @@ namespace _2._01_FantasyRPG
             DodgeChance = 0.2;
             Level = 1;
             AttackPower = 3;
-            Name = "BAT";
+            Name = "Bat";
             HitPoints = 10;
             Experience = 2;
             //UGLY ASS ASCII ART, GOD FORGIVE ME FOR THIS

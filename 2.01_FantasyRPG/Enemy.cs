@@ -22,7 +22,15 @@ namespace _2._01_FantasyRPG
         {
             Console.WriteLine($"\n{Name} attacks!");
             Console.WriteLine($"{Name} dealt {(AttackPower - player.Defense)} damage!");
-            player.HitPoints -= (AttackPower - player.Defense);
+            if ((AttackPower - player.Defense) <= 0)
+            {
+                Console.WriteLine("It couldn't pierce your armor!");
+            }
+            else
+            {
+                player.HitPoints -= (AttackPower - player.Defense);
+            }
+
             if (HitPoints <= 0)
             {
                 Console.WriteLine($"{player.Name} defeated the {Name}!");
@@ -36,6 +44,7 @@ namespace _2._01_FantasyRPG
                 Console.WriteLine($"{player.Name} has {player.HitPoints} HP left.\n");
 
             }
+
         }
 
         public void Announce()

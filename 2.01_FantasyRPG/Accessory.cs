@@ -8,5 +8,11 @@ namespace _2._01_FantasyRPG
 {
     class Accessory : Item
     {
+        public Accessory()
+        {
+            this.DodgeChance = 0.3;
+            this.CriticalChance = 0.3;
+            this.Name = "Accessory Upgrade";
+        }
     }
 }

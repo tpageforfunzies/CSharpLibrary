@@ -60,9 +60,46 @@ namespace _2._01_FantasyRPG
                 Console.WriteLine($"You dealt {AttackPower} damage!");
                 enemy.HitPoints -= AttackPower;
             }
+
             if (enemy.HitPoints > 0)
             {
                 Console.WriteLine($"The {enemy.Name} has {enemy.HitPoints} HP left.\n");
+            }
+            else if (enemy.HitPoints <= 0)
+            {
+                Console.WriteLine($"You have defeated the {enemy.Name}");
+                Console.WriteLine("");
+                int itemSpawn = rand.Next(3);
+                switch (itemSpawn)
+                {
+                    case 0:
+                        Weapon weapon = new Weapon();
+                        weapon.Announce();
+                        Console.WriteLine("");
+                        weapon.AddStats(this);
+                        Stats();
+                        break;
+
+                    case 1:
+                        Armor armor = new Armor();
+                        armor.Announce();
+                        Console.WriteLine("");
+                        armor.AddStats(this);
+                        Stats();
+                        break;
+
+                    case 2:
+                        Accessory acc = new Accessory();
+                        acc.Announce();
+                        Console.WriteLine("");
+                        acc.AddStats(this);
+                        Stats();
+                        break;
+
+                    default:
+                        break;
+                }
+
             }
 
 

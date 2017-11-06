@@ -8,6 +8,9 @@ namespace _2._01_FantasyRPG
 {
     class Battle
     {
+        public Player Player { get; set; }
+        public Enemy Enemy { get; set; }
+
         public Battle(Enemy enemy, Player player)
         {
             this.Player = player;
@@ -16,7 +19,7 @@ namespace _2._01_FantasyRPG
 
         public void Fight()
         {
-            while (Enemy.HitPoints > 0 && Enemy.HitPoints > 0)
+            while (Enemy.HitPoints > 0 && Player.HitPoints > 0)
             {
                 Console.WriteLine("Do you want to attack? Yes or No.");
                 string ready = Console.ReadLine();
@@ -35,13 +38,14 @@ namespace _2._01_FantasyRPG
                     {
                         Enemy.Attack(Player);
                     }
-                    else if (Player.DodgeCheck())
+                    else if (Enemy.HitPoints > 0 && Player.DodgeCheck())
                     {
-                        Console.WriteLine("You dodged the bat's attack!");
+                        Console.WriteLine($"You dodged the 's {Enemy.Name}'s attack!");
                     }
 
 
                 }
+
                 else if (ready.ToLower() == "no")
                 {
                     Console.WriteLine("Well that's anti-climactic.\n");
@@ -59,8 +63,5 @@ namespace _2._01_FantasyRPG
                 Player.Reset();
             }
         }
-
-        public Player Player { get; set; }
-        public Enemy Enemy { get; set; }
     }
 }

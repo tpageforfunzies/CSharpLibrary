@@ -8,5 +8,11 @@ namespace _2._01_FantasyRPG
 {
     class Weapon : Item
     {
+        public Weapon()
+        {
+            this.Attack = 3;
+            this.Name = "Weapon Upgrade";
+        }
+
     }
 }
