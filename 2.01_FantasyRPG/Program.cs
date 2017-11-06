@@ -24,10 +24,10 @@ namespace _2._01_FantasyRPG
             //adventure loop
             while (true)
             {
-                Console.WriteLine("\nAre you ready to fight a monster? Yes or No to quit");
+                Console.WriteLine("\nAre you ready to fight? \nType Monster to fight a monster, Boss to fight a boss, or No to quit");
                 string battleReady = Console.ReadLine();
                 int mobSpawn = rand.Next(2);
-                if (battleReady.ToLower() == "yes")
+                if (battleReady.ToLower() == "monster")
                 {
                     if (mobSpawn == 0)
                     {
@@ -44,6 +44,24 @@ namespace _2._01_FantasyRPG
                         battle.Fight();
                     }
 
+                }
+                else if (battleReady.ToLower() == "boss")
+                {
+                    int bossSpawn = rand.Next(2);
+                    if (bossSpawn == 0)
+                    {
+                        Dragon dragon = new Dragon();
+                        dragon.Announce();
+                        Battle battle = new Battle(dragon, player);
+                        battle.Fight();
+                    }
+                    if (bossSpawn == 1)
+                    {
+                        Demon demon = new Demon();
+                        demon.Announce();
+                        Battle battle = new Battle(demon, player);
+                        battle.Fight();
+                    }
                 }
                 else
                 {

@@ -50,7 +50,7 @@ namespace _2._01_FantasyRPG
         public void Announce()
         {
             Console.WriteLine(Art);
-            Console.WriteLine($"                   RAWRRRRRR IM A BIG SCARY {Name}\n");
+            Console.WriteLine($"                   RAWRRRRRR IM A BIG SCARY {Name.ToUpper()}\n");
         }
     }
 }

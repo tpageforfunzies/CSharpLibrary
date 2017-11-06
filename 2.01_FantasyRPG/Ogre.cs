@@ -15,7 +15,7 @@ namespace _2._01_FantasyRPG
             AttackPower = 5;
             Name = "Ogre";
             HitPoints = 20;
-            Experience = 5;
+            Experience = 1;
             //UGLY ASS ASCII ART, GOD FORGIVE ME FOR THIS
             Art = "                          __,=\'`````\'=/__\r\n              " +
                   "            \'//  (o) \\(o) \\ `\'         _,-,\r\n       " +
