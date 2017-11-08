@@ -1,0 +1,7 @@
+C:\DotNetProjects\CSharpLibrary\0.19_Structs\bin\Debug\0.19_Structs.exe.config
+C:\DotNetProjects\CSharpLibrary\0.19_Structs\bin\Debug\0.19_Structs.exe
+C:\DotNetProjects\CSharpLibrary\0.19_Structs\bin\Debug\0.19_Structs.pdb
+C:\DotNetProjects\CSharpLibrary\0.19_Structs\obj\Debug\0.19_Structs.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\CSharpLibrary\0.19_Structs\obj\Debug\0.19_Structs.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\0.19_Structs\obj\Debug\0.19_Structs.exe
+C:\DotNetProjects\CSharpLibrary\0.19_Structs\obj\Debug\0.19_Structs.pdb
