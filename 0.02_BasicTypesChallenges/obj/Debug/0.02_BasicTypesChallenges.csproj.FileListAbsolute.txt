@@ -4,3 +4,4 @@ C:\DotNetProjects\CSharpLibrary\0.02_BasicTypesChallenges\bin\Debug\0.02_BasicTy
 C:\DotNetProjects\CSharpLibrary\0.02_BasicTypesChallenges\obj\Debug\0.02_BasicTypesChallenges.csproj.CoreCompileInputs.cache
 C:\DotNetProjects\CSharpLibrary\0.02_BasicTypesChallenges\obj\Debug\0.02_BasicTypesChallenges.exe
 C:\DotNetProjects\CSharpLibrary\0.02_BasicTypesChallenges\obj\Debug\0.02_BasicTypesChallenges.pdb
+C:\DotNetProjects\CSharpLibrary\0.02_BasicTypesChallenges\obj\Debug\0.02_BasicTypesChallenges.csprojResolveAssemblyReference.cache

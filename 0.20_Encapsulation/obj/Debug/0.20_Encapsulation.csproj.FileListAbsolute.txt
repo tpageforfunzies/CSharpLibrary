@@ -1,0 +1,6 @@
+C:\DotNetProjects\CSharpLibrary\0.20_Encapsulation\obj\Debug\0.20_Encapsulation.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\0.20_Encapsulation\bin\Debug\0.20_Encapsulation.exe.config
+C:\DotNetProjects\CSharpLibrary\0.20_Encapsulation\bin\Debug\0.20_Encapsulation.exe
+C:\DotNetProjects\CSharpLibrary\0.20_Encapsulation\bin\Debug\0.20_Encapsulation.pdb
+C:\DotNetProjects\CSharpLibrary\0.20_Encapsulation\obj\Debug\0.20_Encapsulation.exe
+C:\DotNetProjects\CSharpLibrary\0.20_Encapsulation\obj\Debug\0.20_Encapsulation.pdb

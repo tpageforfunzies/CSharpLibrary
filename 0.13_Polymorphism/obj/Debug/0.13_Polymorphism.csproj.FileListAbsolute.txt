@@ -1,0 +1,6 @@
+C:\DotNetProjects\CSharpLibrary\0.13_Polymorphism\bin\Debug\0.13_Polymorphism.exe.config
+C:\DotNetProjects\CSharpLibrary\0.13_Polymorphism\bin\Debug\0.13_Polymorphism.exe
+C:\DotNetProjects\CSharpLibrary\0.13_Polymorphism\bin\Debug\0.13_Polymorphism.pdb
+C:\DotNetProjects\CSharpLibrary\0.13_Polymorphism\obj\Debug\0.13_Polymorphism.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\0.13_Polymorphism\obj\Debug\0.13_Polymorphism.exe
+C:\DotNetProjects\CSharpLibrary\0.13_Polymorphism\obj\Debug\0.13_Polymorphism.pdb

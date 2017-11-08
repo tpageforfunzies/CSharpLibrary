@@ -68,6 +68,7 @@ namespace _0._19_Structs
             foreach (var address in addresses)
             {
                 Console.WriteLine(address.GetAddress());
+                Console.WriteLine("");
             }
             Console.ReadLine();
         }

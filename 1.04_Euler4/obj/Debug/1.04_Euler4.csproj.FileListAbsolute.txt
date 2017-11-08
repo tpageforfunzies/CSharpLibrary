@@ -1,0 +1,6 @@
+C:\DotNetProjects\CSharpLibrary\1.04_Euler4\bin\Debug\1.04_Euler4.exe.config
+C:\DotNetProjects\CSharpLibrary\1.04_Euler4\bin\Debug\1.04_Euler4.exe
+C:\DotNetProjects\CSharpLibrary\1.04_Euler4\bin\Debug\1.04_Euler4.pdb
+C:\DotNetProjects\CSharpLibrary\1.04_Euler4\obj\Debug\1.04_Euler4.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\1.04_Euler4\obj\Debug\1.04_Euler4.exe
+C:\DotNetProjects\CSharpLibrary\1.04_Euler4\obj\Debug\1.04_Euler4.pdb
