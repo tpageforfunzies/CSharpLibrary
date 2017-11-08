@@ -9,6 +9,7 @@ namespace _0._15_GettersSetters
     class ElevenFiftyEmployee
     {
         //fields, private fields start with underscore
+        //only for use within the class
         private int _id; //id cannot be negative
         private int _yearsExperience; //an employee has some experience
         private string _jobTitle;
