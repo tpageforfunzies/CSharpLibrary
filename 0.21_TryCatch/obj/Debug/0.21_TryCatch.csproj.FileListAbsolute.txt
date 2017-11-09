@@ -1,0 +1,6 @@
+C:\DotNetProjects\CSharpLibrary\0.21_TryCatch\bin\Debug\0.21_TryCatch.exe.config
+C:\DotNetProjects\CSharpLibrary\0.21_TryCatch\bin\Debug\0.21_TryCatch.exe
+C:\DotNetProjects\CSharpLibrary\0.21_TryCatch\bin\Debug\0.21_TryCatch.pdb
+C:\DotNetProjects\CSharpLibrary\0.21_TryCatch\obj\Debug\0.21_TryCatch.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\0.21_TryCatch\obj\Debug\0.21_TryCatch.exe
+C:\DotNetProjects\CSharpLibrary\0.21_TryCatch\obj\Debug\0.21_TryCatch.pdb
